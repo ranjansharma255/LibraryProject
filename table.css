@@ -1,0 +1,122 @@
+.table {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.branchSelected {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dataTable {
+    height: 70vh;
+    width: 100%;
+}
+.pagination {
+    justify-content: center;
+}
+/* --------------------------------------- */
+#customers-table {
+    border-collapse: collapse;
+    width: 1200px;
+    margin-left: 50%;
+    /* margin-top: 15px; */
+    transform: translate(-50%);
+    box-shadow: 0 0 5px 1px rgb(223, 223, 223);
+}
+#customers-table td, #customers-table th {
+    text-align: left;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 12px;
+}
+td {
+    font-size:  16px;
+}
+
+#customers-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #24292E;
+    color: white;
+}
+.id {
+    width:90px;
+}
+.view {
+    width: 70px;
+}
+.title {
+    width: 600px;
+}
+
+.author {
+    width: 300px;
+}
+.operation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.view-btn {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;  
+    text-transform: uppercase;
+  }
+  
+  .view-btn:hover {
+    background-color: #8fa6d4;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  .view-btn:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  .view-btn:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  .view-btn:focus {
+    outline: 1px transparent;
+  }
+  
+  .view-btn:before {
+    display: none;
+  }
+  
+  .view-btn:-webkit-details-marker {
+    display: none;
+  }

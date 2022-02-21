@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="table.css">
+    <title>MREC LIBRARY</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <span class="navbar-brand mb-0 h1 mreclibrary">Mrec Library</span>
+    </nav>
+    <div class="content">
+        <button type="button" class="button-4">cse</button>
+        <button type="button" class="button-4">it</button>
+        <button type="button" class="button-4">eee</button>
+        <button type="button" class="button-4">ece</button>
+        <button type="button" class="button-4">mech</button>
+        <button type="button" class="button-4">civil</button>
+        <button type="button" class="button-4">mining</button>
+        <div class = "search">
+            <form action="">
+                <input type="search" placeholder = "Search Book">
+                <button class = "search-btn">Search</button>
+            </form>
+        </div>
+    </div>
+   <div class="table">
+    <div class="branchSelected">
+        <h4>Computer Science and Engineering Books</h4>
+    </div>
+    <div class="dataTable">
+        <table id = "customers-table">
+            <thead>
+                <th class = "id">Id</th>
+                <th class = "title">Title</th>
+                <th class = "author">Author</th>
+                <th class = "view">Operation</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>DSC Chandra Shekhar</td>
+                    <td></td>
+                    <td class = "operation">
+                        <a href="#" class = "viewbtn">View</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table> 
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+   </div>
+   
+</body>
+</html>
