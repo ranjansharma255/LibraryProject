@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.book {
+    height: 620px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 430px;
+    width: 900px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 16px;
+}
+
+table, td, th {  
+    border: 0.5px solid rgb(0, 0, 0,0.3);
+    text-align: left;
+    font-size: 15px;
+    font-family:montserrat;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+padding: 15px;
+} 
+.column-1 {
+    width: 160px;
+    font-weight: 600;
+}
